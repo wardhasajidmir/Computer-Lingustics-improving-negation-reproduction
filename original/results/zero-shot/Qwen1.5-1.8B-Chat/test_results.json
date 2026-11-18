@@ -1,0 +1,702 @@
+{
+    "all_negations": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 32,
+        "TN": 31,
+        "accuracy": 49.21
+    },
+    "distractor_negation": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 32,
+        "TN": 0,
+        "accuracy": 0.0
+    },
+    "all": {
+        "TP": 5,
+        "FP": 3,
+        "FN": 46,
+        "TN": 46,
+        "accuracy": 51.0
+    },
+    "input_negation": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 31,
+        "accuracy": 100.0
+    },
+    "all_affirmations": {
+        "TP": 5,
+        "FP": 3,
+        "FN": 14,
+        "TN": 15,
+        "accuracy": 54.05
+    },
+    "input_affirmation": {
+        "TP": 5,
+        "FP": 0,
+        "FN": 14,
+        "TN": 0,
+        "accuracy": 26.32
+    },
+    "distractor_affirmation": {
+        "TP": 0,
+        "FP": 3,
+        "FN": 0,
+        "TN": 15,
+        "accuracy": 83.33
+    },
+    "Negation_analysis": {
+        "verbal_all": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 11,
+            "TN": 10,
+            "accuracy": 47.62
+        },
+        "verbal_input": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 10,
+            "accuracy": 100.0
+        },
+        "verbal_distractor": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 11,
+            "TN": 0,
+            "accuracy": 0.0
+        },
+        "analytic_all": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 23,
+            "TN": 22,
+            "accuracy": 48.89
+        },
+        "analytic_input": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 22,
+            "accuracy": 100.0
+        },
+        "analytic_distractor": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 23,
+            "TN": 0,
+            "accuracy": 0.0
+        },
+        "clausal_all": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 11,
+            "TN": 10,
+            "accuracy": 47.62
+        },
+        "clausal_input": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 10,
+            "accuracy": 100.0
+        },
+        "clausal_distractor": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 11,
+            "TN": 0,
+            "accuracy": 0.0
+        },
+        "non_verbal_all": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 21,
+            "TN": 21,
+            "accuracy": 50.0
+        },
+        "non_verbal_input": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 21,
+            "accuracy": 100.0
+        },
+        "non_verbal_distractor": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 21,
+            "TN": 0,
+            "accuracy": 0.0
+        },
+        "synthetic_all": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 9,
+            "TN": 9,
+            "accuracy": 50.0
+        },
+        "synthetic_input": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 9,
+            "accuracy": 100.0
+        },
+        "synthetic_distractor": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 9,
+            "TN": 0,
+            "accuracy": 0.0
+        },
+        "subclausal_all": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 21,
+            "TN": 21,
+            "accuracy": 50.0
+        },
+        "subclausal_input": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 21,
+            "accuracy": 100.0
+        },
+        "subclausal_distractor": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 21,
+            "TN": 0,
+            "accuracy": 0.0
+        }
+    },
+    "coherence_scores": {
+        "All": {
+            "Coherent": 0,
+            "Incoherent": 2,
+            "Coherence_percentage": 0.0
+        },
+        "Affirmation-Negation_Input": {
+            "Coherent": 0,
+            "Incoherent": 2,
+            "Coherence_percentage": 0.0
+        },
+        "Affirmation-Negation_Distractor": {
+            "Coherent": 0,
+            "Incoherent": 2,
+            "Coherence_percentage": 0.0
+        },
+        "Input-Distractor_Affirmation": {
+            "Coherent": 0,
+            "Incoherent": 2,
+            "Coherence_percentage": 0.0
+        },
+        "Input-Distractor_Negation": {
+            "Coherent": 0,
+            "Incoherent": 2,
+            "Coherence_percentage": 0.0
+        }
+    },
+    "Synonymy1": {
+        "all_negations": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 32,
+            "TN": 31,
+            "accuracy": 49.21
+        },
+        "distractor_negation": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 32,
+            "TN": 0,
+            "accuracy": 0.0
+        },
+        "all": {
+            "TP": 5,
+            "FP": 3,
+            "FN": 46,
+            "TN": 46,
+            "accuracy": 51.0
+        },
+        "input_negation": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 31,
+            "accuracy": 100.0
+        },
+        "all_affirmations": {
+            "TP": 5,
+            "FP": 3,
+            "FN": 14,
+            "TN": 15,
+            "accuracy": 54.05
+        },
+        "input_affirmation": {
+            "TP": 5,
+            "FP": 0,
+            "FN": 14,
+            "TN": 0,
+            "accuracy": 26.32
+        },
+        "distractor_affirmation": {
+            "TP": 0,
+            "FP": 3,
+            "FN": 0,
+            "TN": 15,
+            "accuracy": 83.33
+        },
+        "Negation_analysis": {
+            "verbal_all": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11,
+                "TN": 10,
+                "accuracy": 47.62
+            },
+            "verbal_input": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0,
+                "TN": 10,
+                "accuracy": 100.0
+            },
+            "verbal_distractor": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11,
+                "TN": 0,
+                "accuracy": 0.0
+            },
+            "analytic_all": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 23,
+                "TN": 22,
+                "accuracy": 48.89
+            },
+            "analytic_input": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0,
+                "TN": 22,
+                "accuracy": 100.0
+            },
+            "analytic_distractor": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 23,
+                "TN": 0,
+                "accuracy": 0.0
+            },
+            "clausal_all": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11,
+                "TN": 10,
+                "accuracy": 47.62
+            },
+            "clausal_input": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0,
+                "TN": 10,
+                "accuracy": 100.0
+            },
+            "clausal_distractor": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11,
+                "TN": 0,
+                "accuracy": 0.0
+            },
+            "non_verbal_all": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 21,
+                "TN": 21,
+                "accuracy": 50.0
+            },
+            "non_verbal_input": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0,
+                "TN": 21,
+                "accuracy": 100.0
+            },
+            "non_verbal_distractor": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 21,
+                "TN": 0,
+                "accuracy": 0.0
+            },
+            "synthetic_all": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 9,
+                "TN": 9,
+                "accuracy": 50.0
+            },
+            "synthetic_input": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0,
+                "TN": 9,
+                "accuracy": 100.0
+            },
+            "synthetic_distractor": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 9,
+                "TN": 0,
+                "accuracy": 0.0
+            },
+            "subclausal_all": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 21,
+                "TN": 21,
+                "accuracy": 50.0
+            },
+            "subclausal_input": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0,
+                "TN": 21,
+                "accuracy": 100.0
+            },
+            "subclausal_distractor": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 21,
+                "TN": 0,
+                "accuracy": 0.0
+            }
+        },
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 2,
+                "Coherence_percentage": 0.0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 2,
+                "Coherence_percentage": 0.0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 2,
+                "Coherence_percentage": 0.0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 2,
+                "Coherence_percentage": 0.0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 2,
+                "Coherence_percentage": 0.0
+            }
+        }
+    },
+    "Antonymy1": {
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            }
+        }
+    },
+    "Synonymy2": {
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            }
+        }
+    },
+    "Antonymy2": {
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            }
+        }
+    },
+    "Hypernymy": {
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            }
+        }
+    },
+    "Part": {
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            }
+        }
+    },
+    "Substance": {
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            }
+        }
+    },
+    "Member": {
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            }
+        }
+    },
+    "Agent": {
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            }
+        }
+    },
+    "Instrument": {
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            }
+        }
+    },
+    "Result": {
+        "coherence_scores": {
+            "All": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Input": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Affirmation-Negation_Distractor": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Affirmation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            },
+            "Input-Distractor_Negation": {
+                "Coherent": 0,
+                "Incoherent": 0,
+                "Coherence_percentage": 0
+            }
+        }
+    }
+}

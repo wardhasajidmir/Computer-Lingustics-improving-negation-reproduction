@@ -567,7 +567,7 @@ def main(
     clean_cache()
 
     if training_args.do_predict:
-        if not training_args.do_train and not training_args.overwrite_output_dir:
+        if not training_args.do_train:
             if os.path.exists(
                 os.path.join(training_args.output_dir, "test_results.json")
             ):
