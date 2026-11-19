@@ -11,7 +11,7 @@ quantization: 4
 force_auto_device_map: false
 predict_with_generate: false
 per_device_eval_batch_size: 32
-use_flash_attention: true
+use_flash_attention: false
 fewshot: false
 
 # dataset arguments
@@ -23,7 +23,7 @@ max_seq_length: 4096
 
 # Sampling parameters
 sample_dataset: true
-sample_size: 20
+sample_size: 1100
 
 # Output Dir
 output_dir: results/qwen/pp1
