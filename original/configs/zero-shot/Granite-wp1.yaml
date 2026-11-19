@@ -23,7 +23,7 @@ max_seq_length: 4096
 
 # Sampling parameters
 sample_dataset: true
-sample_size: 1100
+sample_size: 275
 
 # Output Dir
 output_dir: results/granite/wp1
