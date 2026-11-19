@@ -1,0 +1,6 @@
+Prompt,Published Qwen,Our Qwen,Qwen Difference,Published Granite,Our Granite,Granite Difference
+BASELINE,66.87,45.0,-21.87,57.77,70.0,12.23
+WP1,68.55,50.0,-18.55,60.94,80.0,19.06
+WP2,66.27,40.0,-26.27,60.29,65.0,4.71
+PP1,64.38,50.0,-14.38,60.15,70.0,9.85
+PP2,64.68,55.0,-9.68,59.21,60.0,0.79

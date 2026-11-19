@@ -1,0 +1,6 @@
+Prompt,Overall Accuracy,Negation Accuracy,Affirmation Accuracy
+BASELINE,70.0,44.44,90.91
+WP1,80.0,55.56,100.0
+WP2,65.0,55.56,72.73
+PP1,70.0,44.44,90.91
+PP2,60.0,22.22,90.91
