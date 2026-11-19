@@ -221,3 +221,13 @@ class DataTrainingArguments:
             "help": "Number of rows to sample from the dataset if sample_dataset is True. Defaults to 100."
         },
     )
+
+
+    prompt_type: str = field(
+        default="baseline",
+        metadata={
+            "help": "Prompt type",
+            "choices": ["baseline", "wp1", "wp2", "pp1", "pp2"]
+        },
+    )
+

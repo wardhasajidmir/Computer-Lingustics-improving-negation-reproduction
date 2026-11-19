@@ -686,6 +686,9 @@ if __name__ == "__main__":
     from dataset import prepare_data
     prepare_data.prompt_type = data_args.prompt_type
 
+    from dataset import prepare_data
+    prepare_data.prompt_type = data_args.prompt_type
+
     # Make the arguments mutable so we can override them
     ModelArguments.__setattr__ = object.__setattr__
     Seq2SeqTrainingArguments.__setattr__ = object.__setattr__
