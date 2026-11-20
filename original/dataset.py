@@ -1,23 +1,4 @@
 
-PROMPTS = {
-    "baseline":
-        "Is the following statement True or False? Answer only True or False.",
-
-    "wp1":
-        "Pay attention to any negation and distractors (sentences that don't make sense). Is the following statement True or False? Answer only True or False.",
-
-    "wp2":
-        "Pay attention to any negation (words like not, no, never, etc.). Is the following statement True or False? Answer only True or False.",
-
-    "pp1":
-        "You are a linguistic expert who understands the effect of negation words. Is the following statement True or False? Answer only True or False.",
-
-    "pp2":
-        "You are an expert in analysing negations in sentences. Is the following statement True or False? Answer only True or False."
-}
-
-
-
 import logging
 import os
 from dataclasses import dataclass
@@ -91,11 +72,10 @@ def prepare_data(
             )
             prepare_data._warning_logged = True
     if not fewshot:
-        prompt_type = getattr(prepare_data, "prompt_type", "baseline")
-
-        prompt_prefix = PROMPTS[prompt_type]
-
-        prompt = f"{prompt_prefix} {example['sentence'].strip()}"
+        if tokenizer.chat_template is not None:
+            prompt = f"Is the following statement True or False? Answer only True or False. {example['sentence'].strip()}"
+        else:
+            prompt = f"Is the following statement True or False? {example['sentence'].strip()}"
 
     else:
         if tokenizer.chat_template is not None:
@@ -321,8 +301,7 @@ class ThisIsNotADataset(Dataset):
         if sample_dataset:
             # dataset = reduce_dataset(dataset, sample_size)
             # dataset = reduce_dataset_by_pattern(dataset, 1, sample_size)
-            # dataset = reduce_dataset_by_pattern_with_offset(dataset, 1, sample_size, 8207)  # original: pattern 1 only
-            dataset = reduce_dataset(dataset, sample_size)  # changed by group: sample from all patterns
+            dataset = reduce_dataset_by_pattern_with_offset(dataset, 1, sample_size, 8207)
         
         if pattern is not None:
             assert pattern in [

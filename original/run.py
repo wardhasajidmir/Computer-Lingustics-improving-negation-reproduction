@@ -567,7 +567,7 @@ def main(
     clean_cache()
 
     if training_args.do_predict:
-        if not training_args.do_train:
+        if not training_args.do_train and not training_args.overwrite_output_dir:
             if os.path.exists(
                 os.path.join(training_args.output_dir, "test_results.json")
             ):
@@ -682,12 +682,6 @@ if __name__ == "__main__":
     model_args, data_args, training_args = hf_parser.parse_yaml_file(
         yaml_file=args.config
     )
-
-    from dataset import prepare_data
-    prepare_data.prompt_type = data_args.prompt_type
-
-    from dataset import prepare_data
-    prepare_data.prompt_type = data_args.prompt_type
 
     # Make the arguments mutable so we can override them
     ModelArguments.__setattr__ = object.__setattr__
