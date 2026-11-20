@@ -17,7 +17,8 @@ from transformers.models.auto.modeling_auto import (
     MODEL_FOR_CAUSAL_LM_MAPPING_NAMES,
     MODEL_FOR_SEQ_TO_SEQ_CAUSAL_LM_MAPPING_NAMES,
 )
-from transformers.utils import is_ipex_available
+def is_ipex_available():  # changed by group: removed from current transformers
+    return False
 
 
 def find_all_linear_names(model, quantization: Optional[int] = None):
